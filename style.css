@@ -1,0 +1,91 @@
+a:visited {
+  color: #ffffff;
+}
+.container,
+.logo,
+main,
+footer {
+  margin: 0 auto;
+  max-width: 1219px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 19.5px;
+  padding-bottom: 19.5px;
+  background-color: #007765;
+  position: sticky;
+  top: 0;
+}
+.nav {
+  font-size: 24px;
+  color: #ffffff;
+}
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.title {
+  background-image: url("/img/image-7.png");
+  color: #ffffff;
+  max-height: 403px;
+  text-align: center;
+  padding: 110px;
+  font-size: 45px;
+}
+h2 {
+  color: #007765;
+  font-size: 75px;
+  text-align: center;
+}
+p {
+  font-size: 40.5px;
+}
+.content {
+  background-image: url("/img/image-6.png");
+  max-height: 403px;
+  text-align: center;
+  padding: 110px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.logo2 {
+  float: left;
+  margin-right: 20px;
+}
+.team {
+  display: flex;
+  align-items: center;
+  align-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+h3 {
+  color: #007765;
+  font-size: 25px;
+  text-align: center;
+}
+figure {
+  margin: 50px 100px 50px 50px;
+}
+.theTeam {
+  background-color: #eeeeee;
+}
+footer > p {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  background-color: #333333;
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
